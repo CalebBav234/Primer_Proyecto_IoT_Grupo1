@@ -37,7 +37,7 @@ class UltrasonicSensor {
 
 class BolivianFlag {
   long distance;
-  int redPins[3]    = {2, 4, 5};
+  int redPins[3]    = {23, 4, 5};
   int yellowPins[3] = {18, 19, 21};
   int greenPins[3]  = {12, 13, 14};
   int thresholds[3] = {10, 20, 30};
