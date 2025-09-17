@@ -78,7 +78,7 @@ class BolivianFlag {
 BolivianFlag flag(25, 26);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println("ESP32 Ultrasonic Distance with Bolivian Flag LEDs");
 }
 
